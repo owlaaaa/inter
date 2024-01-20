@@ -143,7 +143,7 @@ function AB() {
   if (!inFrame && !navigator.userAgent.includes('Firefox')) {
     const popup = open('about:blank', '_blank')
     if (!popup || popup.closed) {
-      alert('Please allow popups and redirects.')
+      alert('with great power comes great responsibility.')
     } else {
       const doc = popup.document
       const iframe = doc.createElement('iframe')
